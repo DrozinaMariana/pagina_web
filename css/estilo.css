@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: medium;
+}
+
+body {
+    background-color: rgb(34, 33, 33);
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400px;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h2,
+h3 {
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.logo {
+    width: 140px;
+}
+
+
+/* header*/
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.imagen_logo {
+    width: 30%;
+}
+
+.barra_navegacion ul {
+    display: flex;
+    width: 98%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.barra_navegacion {
+    width: 70%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav li {
+    display: flex;
+    list-style-type: none;
+}
+
+nav a {
+    color: rgb(166, 161, 161);
+    text-decoration: none;
+    font-size: medium;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.imagenPrincipal {
+    width: 98vw;
+}
+
+#equipo {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.home__servicios img {
+    width: 98vw;
+}
+
+.home__servicios {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.home__servicios__texto li h3,
+.home__servicios__texto li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.home__servicios__texto h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5%;
+}
+
+.home__servicios__texto {
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.servicios {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+}
+
+.footer__podemos {
+    width: 45%;
+    margin-top: 5%;
+}
+
+.servicios__estudio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.servicios__estudio1 {
+    width: 33%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.servicios__estudio__imagenes {
+    font-weight: bold;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*
+.card__cartones {
+    background-color: rgb(53, 52, 52);
+    color: aliceblue;
+}
+*/
+
+
+/* footer*/
+
+
+/*pagina servicios*/
+
+#imagenPrincipalServicios {
+    width: 98vw;
+}
+
+.servicios__estudio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.conten__servicios__hijo {
+    display: block;
+    margin: 3%;
+}
+
+.servicios_texto__img {
+    display: block;
+    font-size: large;
+    color: aliceblue;
+    margin: 2%;
+}
+
+.servicios__estudio__container {
+    width: 30%;
+}
+
+.footer__logo {
+    width: 33%;
+}
+
+.footer__contactenos {
+    width: 30%;
+    margin-top: 5%;
+}
+
+@media screen and (max-width:700px) {
+    header {
+        display: flex;
+    }
+    .imagen_logo {
+        justify-content: center;
+        align-items: center;
+        padding-left: 25px;
+    }
+    .barra_navegacion ul {
+        display: block;
+    }
+    .barra_navegacion {
+        width: 70%;
+    }
+    nav ul {
+        display: block;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    h1 {
+        text-align: none;
+        padding-left: 50px;
+    }
+    .servicios__estudio {
+        display: block;
+    }
+    .conten__servicios__hijo {
+        display: block;
+        text-align: center;
+    }
+    .servicios__estudio__container {
+        width: 30%;
+        display: inline;
+    }
+    footer {
+        display: block;
+        background-color: black;
+    }
+}
